@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel = "shortcut icon" href ="../assests/fav.png">
+<title>BridgeLabz</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row wrap;
+  }
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+  article{
+               padding: 10px;
+               margin: 10px;
+               background: aqua;
+           }
+  header, footer {
+    background: rgba(138, 131, 41, 0.39);
+    height: 20vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+  .headerContainer{
+               display: flex;
+               flex-flow: column wrap;
+               align-content: center;
+               background:rgb(137, 137, 211);
+               font-weight: bold;
+               padding: 10px;
+           } 
+           .footerContainer{
+               display: flex;
+               flex-flow: column wrap;
+               align-content: center;
+               background: lightgreen;
+               font-weight: bold;
+               padding: 10px;
+           }
+</style>
+</head>
+<body>
+  <nav class="col-1"><p><strong>Contacts us</strong></p>
+<a href="https://www.bridgelabz.com/">Bridgelabz</a><br>
+<a href="https://www.linkedin.com/company/bridgelabz-com">BridgeLabz|linkedin</a>
+<a href ="https://www.glassdoor.co.in/Reviews/BridgeLabz-Solutions-Reviews-E1318507.htm">BridgeLabz|glassdoor</a>
+</nav>
+  <div class="col-2">
+  	<header class="headerContainer"><h1>Welcome to BridgeLabz</h1></header>
+    <main class="content">
+    <article><h3>About BridgeLabz</h3><p>BridgeLabz is solving the tech employability challenge in India.
+         We Provide 100% guaranteed high paying emerging tech jobs by enabling engineers and non engineers
+          equiped with the best working knowledge of computer science.</p></article>
+    <article><h3>Why BridgeLabz?</h3><p>Tech jobs are emerging and it is expected to boom further and what's best than bridgelabz to be prepared
+        for this amazing journey. We offer latest content with best faculties who have years of experience.
+    </p></article>
+    <article><h3>Accomplishments</h3><p>
+        Our Result speaks about our success! We have successfully trained over 10k+ individuals who acquire big roles in the tech giants such as google, facebook, capgemini.
+        We have a tie up with many big tech companies and boast of 100% success so far.
+        To hear more about us, please visit..<a href ="https://www.glassdoor.co.in/Reviews/BridgeLabz-Solutions-Reviews-E1318507.htm">BridgeLabz reviews at glassdoor</a>
+    </p></article>
+    </main>
+  	<footer class="footerContainer"><h2>Footer</h2></footer>
+  </div>
+</body>
+</html>
